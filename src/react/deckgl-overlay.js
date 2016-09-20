@@ -131,7 +131,7 @@ export default class DeckGLOverlay extends React.Component {
 
   render() {
     const {
-      width, height, layers, blending, pixelRatio,
+      width, height, blending, pixelRatio,
       latitude, longitude, zoom, pitch, bearing, altitude,
       gl, debug,
       ...otherProps
